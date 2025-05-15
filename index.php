@@ -14,7 +14,7 @@
         <?php
         $nomeCompleto = "Raquel Medeiros de Lucena"; // Substitua pelo seu nome
         $idade = 20; // Substitua pela sua idade
-        $fotoPerfil = "imagens/sua_foto.jpg"; // Caminho para sua foto
+        $fotoPerfil = "sua_foto.jpg"; // Caminho para sua foto
         ?>
         <div class="perfil">
             <img src="<?php echo $fotoPerfil; ?>" alt="Foto de Perfil">
@@ -28,10 +28,10 @@
         <?php
         $experiencias = [
             [
-                "empresa" => "Nome da Empresa",
-                "cargo" => "Seu Cargo",
-                "periodo" => "Ano Inicial – Ano Final (ou Presente)",
-                "descricao" => "Breve descrição das suas responsabilidades e conquistas."
+                "empresa" => "LC Informática",
+                "cargo" => "Design Gráfico",
+                "periodo" => "2022 – 2022",
+                "descricao" => "Responsavél por boa parte dos designs dentro da empresa, juntamente com uma equipe. Também promovida a administração da equipe de Design."
             ],
             // Adicione mais experiências conforme necessário
         ];
@@ -58,9 +58,14 @@
         <?php
         $cursos = [
             [
-                "nome" => "Nome do Curso/Formação",
-                "instituicao" => "Nome da Instituição",
-                "periodo" => "Ano Inicial – Ano Final"
+                "nome" => "Informática",
+                "instituicao" => "Escola Estadual de Educação Profissional Deputado José Walfrido Monteiro (EEEP)",
+                "periodo" => "2020 – 2022"
+            ],
+            [
+                "nome" => "Sistemas de Informação",
+                "instituicao" => "IFCE",
+                "periodo" => "2023 – 2027"
             ],
             // Adicione mais cursos conforme necessário
         ];
@@ -86,16 +91,20 @@
         <?php
         $habilidades = [
             "PHP" => 0, // Avalie sua habilidade de 0 a 10
-            "HTML" => 0,
-            "CSS" => 0,
-            "JavaScript" => 0,
-            "Banco de Dados" => 0
+            "HTML" => 10,
+            "CSS" => 10,
+            "JavaScript" => 7,
+            "Banco de Dados" => 8
         ];
 
         $hobbies = [
             "Ouvir Musica" => 10, // Avalie seu nível de interesse de 0 a 10
             "Tocar Instrumento" => 8,
-            "Estudar Programação" => 8
+            "Programar" => 9,
+            "Desenhar" => 10,
+            "Tocar Músicas" => 9,
+            "Estudar Programação" => 8,
+            "Malhar/Academia" => 10
         ];
         ?>
 
